@@ -60,7 +60,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('my server is running')
+    res.send('my server is is running')
 })
 app.listen(port, (req, res) => {
     console.log('my port is', port)
